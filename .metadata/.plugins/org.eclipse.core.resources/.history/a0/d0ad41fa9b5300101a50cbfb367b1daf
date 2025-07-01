@@ -1,0 +1,39 @@
+package com.synergisticit.util;
+
+import com.synergisticit.domain.Employee;
+import com.synergisticit.service.EmployeeService;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+@Component
+public class EmployeeRunner implements CommandLineRunner {
+
+    private final EmployeeService employeeService;
+
+    public EmployeeRunner(EmployeeService employeeService) {
+        this.employeeService = employeeService;
+    }
+        
+    
+    @Override
+    public void run(String... args) {
+    	if (employeeService.findAll().isEmpty()) {  // seed only if DB is empty
+            employeeService.save(new Employee("Afroz", "Programmer", 15556.0));
+            employeeService.save(new Employee("Himvan", "Sr. Programmer", 17556.0));
+            employeeService.save(new Employee("Oscar", "DBA", 17556.0));
+            employeeService.save(new Employee("Mike Zeber", "Tester", 15000.0));
+            employeeService.save(new Employee("Pooja", "Programmer", 15000.0));
+            System.out.println("✅ Sample employees created.");
+        }
+
+        System.out.println("📋 All Employees:");
+        employeeService.findAll().forEach(System.out::println);
+
+        System.out.println("\nDeleting employee record with id = 6 ...");
+        employeeService.deleteById(20);          
+
+        // Show remaining employees
+        employeeService.findAll().forEach(System.out::println);
+    }
+}
+

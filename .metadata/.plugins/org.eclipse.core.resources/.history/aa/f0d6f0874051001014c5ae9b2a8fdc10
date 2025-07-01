@@ -1,0 +1,20 @@
+package com.synergisticsit.util;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+
+import com.synergisticit.Day1223Jun2025SpringBootApplication;
+import com.synergisticit.service.EmployeeService;
+
+public class CommandLineRunnerImpl implements CommandLineRunner {
+	
+	@Autowired EmployeeService employeeServiced;
+
+	@Override
+	public static void main(String[] args) {
+		SpringApplication.run(Day1223Jun2025SpringBootApplication.class, args);
+	}
+
+ 
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/mitchellmorgan/Downloads/day15-26Jun2025-SpringBoot-Assignment2 2"/>
+			<item value="/Users/mitchellmorgan/Downloads/day15-26Jun2025-SpringBoot-Assignment2"/>
+			<item value="/Users/mitchellmorgan/Downloads/day15-26Jun2025-SpringBoot-Assignment1.1"/>
+			<item value="/Users/mitchellmorgan/Downloads/day14-25Jun2025-SpringBoot-JpaRepository3"/>
+			<item value="/Users/mitchellmorgan/Downloads/day14-26Jun2025-SpringBoot-JpaRepository2"/>
+			<item value="/Users/mitchellmorgan/Downloads/day13-24Jun2025-SpringBoot-CommandLineRunner-CrudRepository"/>
+			<item value="/Users/mitchellmorgan/Downloads/day13-24Jun2025-SpringBoot-JpaRepository"/>
+			<item value="/Users/mitchellmorgan/Downloads/day12-23Jun2025-SpringBootClass"/>
+			<item value="/Users/mitchellmorgan/Downloads/day-12-23Jun2025-springBoot"/>
+			<item value="/Users/mitchellmorgan/Downloads/day11-20Jun2025-Spring-JavaConfig"/>
+			<item value="/Users/mitchellmorgan/Downloads/day11-20Jun2025-Spring-AnnotationConfig-ConstructorInjection"/>
+			<item value="/Users/mitchellmorgan/Downloads/day09-18Jun2025-Spring-JavaConfig 2"/>
+			<item value="/Users/mitchellmorgan/Downloads/day09-18Jun2025-Spring-JavaConfig"/>
+			<item value="/Users/mitchellmorgan/Downloads/day07-13Jun2025-Spring-Hibernate3-AnnotationConfig"/>
+			<item value="/Users/mitchellmorgan/Downloads/day06-12Jun2025-Spring-Hibernate"/>
+			<item value="/Users/mitchellmorgan/Downloads/day04-10New"/>
+			<item value="/Users/mitchellmorgan/Downloads/day03-09Jun2025-Spring-JdbcTemplate"/>
+		</list>
+		<section name="SmartImportWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="519"/>
+			<item key="DIALOG_Y_ORIGIN" value="109"/>
+			<item key="DIALOG_WIDTH" value="880"/>
+			<item key="DIALOG_HEIGHT" value="627"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="666"/>
+		<item key="DIALOG_Y_ORIGIN" value="356"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.m2e.core.wizards.Maven2ProjectWizard"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.m2e"/>
+		</list>
+		<section name="NewWizard.dialogBounds">
+			<item key="DIALOG_X_ORIGIN" value="0"/>
+			<item key="DIALOG_Y_ORIGIN" value="0"/>
+			<item key="DIALOG_WIDTH" value="586"/>
+			<item key="DIALOG_HEIGHT" value="500"/>
+			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+		</section>
+	</section>
+</section>

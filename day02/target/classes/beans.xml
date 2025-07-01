@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+         http://www.springframework.org/schema/beans 
+         https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+<!-- <! autowire by defalt, no, constructor, byType, byName,  > -->
+ 
+
+<!--   <bean id="e1" class="com.synergisticit.domain.Employee" scope="singleton" init-method="initMethod" destroy-method="destroyMethod" autowire="byType">
+ -->    
+ 
+ <bean id="e1" class="com.synergisticit.domain.Employee" scope="singleton" init-method="initMethod" destroy-method="destroyMethod" autowire="byName">
+    <property name="empId"       value="2"/>
+    <property name="name"        value="Mike"/>
+    <property name="designation" value="Programmer"/>
+    <property name="salary"      value="15000"/>
+    <property name="address"     ref="addr3"/>
+  </bean>
+
+  <bean id="e2" class="com.synergisticit.domain.Employee" scope="prototype">
+    <property name="empId"       value="2"/>
+    <property name="name"        value="Tom"/>
+    <property name="designation" value="Programmer"/>
+    <property name="salary"      value="18000"/>
+    <property name="address"     ref="addr2"/>
+  </bean>
+  
+   <bean id="e3" class="com.synergisticit.domain.Employee">
+    <property name="empId"       value="3"/>
+    <property name="name"        value="Grechin"/>
+    <property name="designation" value="HR"/>
+    <property name="salary"      value="19900"/>
+    <property name="address"     ref="addr1"/>
+  </bean>
+  
+   <bean id="addr3" class="com.synergisticit.domain.Address">
+    <property name="addressLine1" value="777 West North St"/>
+    <property name="addressLine2" value="AddLine2"/>
+    <property name="city"          value="Chicago"/>
+    <property name="state"         value="Illinois"/>
+    <property name="country"       value="USA"/>
+  </bean>
+  
+   <bean id="addr1" class="com.synergisticit.domain.Address">
+    <property name="addressLine1" value="897 East North St"/>
+    <property name="addressLine2" value="AddLine2"/>
+    <property name="city"          value="Zanzabar"/>
+    <property name="state"         value="Madigascar"/>
+    <property name="country"       value="AF"/>
+  </bean>
+  
+  <bean id="addr2" class="com.synergisticit.domain.Address">
+    <property name="addressLine1" value="789 South North St"/>
+    <property name="addressLine2" value="AddLine2"/>
+    <property name="city"          value="Denver"/>
+    <property name="state"         value="colorado"/>
+    <property name="country"       value="USA"/>
+  </bean>
+  
+
+</beans>

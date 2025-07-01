@@ -1,0 +1,15 @@
+package com.synergisticas.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ControllerA {
+	// DispatherServlet 
+	//  org.springframework.web.servlet
+	
+		@RequestMapping("m1")
+		public void m1() {
+			System.out.println("m1()...... ");
+		}
+}

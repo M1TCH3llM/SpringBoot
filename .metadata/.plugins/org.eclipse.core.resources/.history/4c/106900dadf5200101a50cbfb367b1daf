@@ -1,0 +1,33 @@
+package com.synergisticit.config;
+
+import javax.sql.DataSource;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import org.springframework.core.env.Environment;
+import org.springframework.core.env.PropertyResolver;
+import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
+import org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter;
+
+@Configuration
+@PropertySource("classpath:a.properties")   // NEW
+@ComponentScan(basePackages = "com.synergisticit")  // NEW
+public class AppConfig {
+
+	private DriverManagerDataSource ds;
+	private PropertyResolver env;
+
+	@Bean
+	public DataSource dataSource() {
+		DriverManagerDataSource dataSource  = new DriverManagerDataSource();
+		ds.setDriverClassName(env.getProperty("driverClassName"));
+		ds.setUrl(env.getProperty("url"));
+		ds.setUsername(env.getProperty("username"));
+		ds.setPassword(env.getProperty("password"));
+		
+		return dataSource;
+	}
+}

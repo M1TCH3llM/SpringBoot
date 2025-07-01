@@ -1,0 +1,5 @@
+package com.synergisticsit.domain;
+
+public class Employee {
+
+}

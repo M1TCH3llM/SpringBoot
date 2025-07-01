@@ -1,0 +1,2 @@
+spring.application.name=day12-23Jun2025-SpringBoot
+spring.jpa.hibernate.ddl-auto=update

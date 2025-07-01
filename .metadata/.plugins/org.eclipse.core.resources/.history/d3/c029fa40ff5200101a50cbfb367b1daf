@@ -1,0 +1,27 @@
+// src/main/java/com/synergisticit/util/EmployeeRunner.java
+package com.synergisticit.util;
+
+import com.synergisticit.service.EmployeeService;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+@Component
+public class EmployeeRunner implements CommandLineRunner {
+
+    private final EmployeeService employeeService;
+
+    public EmployeeRunner(EmployeeService employeeService) {
+        this.employeeService = employeeService;
+    }
+
+    @Override
+    public void run(String... args) {
+
+        System.out.println("\nDeleting employee record with id = 6 ...");
+        employeeService.deleteById(24);          // ✅ single-line delete
+
+        // Show remaining employees
+        employeeService.findAll().forEach(System.out::println);
+    }
+}
+

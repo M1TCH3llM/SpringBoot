@@ -1,0 +1,25 @@
+package com.synergisticas.controller;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class ControllerB {
+	// DispatherServlet 
+	//  org.springframework.web.servlet
+	
+		@RequestMapping("c1")
+		public ResponseEntity<String> c1() {
+			String str = "Abraham\nBenjamin\nChris\nDavid\nEric";
+			System.out.println("str");
+			
+			return new ResponseEntity<String>(httpStatus.ACCEPTED);
+		}
+		
+		@RequestMapping("c2")
+		public void c2() {
+			System.out.println("@RequestMappin (\"c2\"...... ");
+		}
+}

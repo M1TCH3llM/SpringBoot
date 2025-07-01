@@ -1,0 +1,8 @@
+# ----- Database -----
+driverClassName = com.mysql.cj.jdbc.Driver
+url             = jdbc:mysql://localhost:3306/springdbJun2025
+db.user         = root          # change if needed
+db.pass         = password      # change if needed
+
+# ----- Hibernate -----
+hibernate.ddl   = update

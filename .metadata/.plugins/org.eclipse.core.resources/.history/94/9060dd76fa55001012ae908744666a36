@@ -1,0 +1,13 @@
+package com.synergisticas.controller;
+
+import org.springframework.stereotype.Controller;
+
+@Controller
+public class ControllerA {
+	// DispatherServlet 
+	//  org.springframework.web.servlet
+	
+		public void m1() {
+			System.out.println("m1()...... ");
+		}
+}

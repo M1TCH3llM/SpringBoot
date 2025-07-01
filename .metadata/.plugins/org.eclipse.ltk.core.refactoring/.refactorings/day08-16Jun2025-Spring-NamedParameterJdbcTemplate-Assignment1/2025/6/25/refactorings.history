@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;day08-16Jun2025-Spring-NamedParameterJdbcTemplate-Assignment1&apos;&#x0A;- Original project: &apos;day08-16Jun2025-Spring-NamedParameterJdbcTemplate-Assignment1&apos;&#x0A;- Original element: &apos;com.synergisticit.domain.Snippet.java&apos;" description="Delete element" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.synergisticit.domain{Snippet.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1750109445006" subPackages="false" version="1.0"/>
+</session>
