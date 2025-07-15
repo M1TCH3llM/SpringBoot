@@ -6,6 +6,10 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/mitchellmorgan/Downloads/day19-02Jul2025-SpringBoot-MVC4"/>
+			<item value="/Users/mitchellmorgan/Downloads/day18-01Jul2025-SpringBoot-MVC3"/>
+			<item value="/Users/mitchellmorgan/Downloads/day18-01Jul2025-SpringBoot-MVC2"/>
+			<item value="/Users/mitchellmorgan/Downloads/day17-30Jun2025-SpringBoot-MVC"/>
 			<item value="/Users/mitchellmorgan/Downloads/day15-26Jun2025-SpringBoot-Assignment2 2"/>
 			<item value="/Users/mitchellmorgan/Downloads/day15-26Jun2025-SpringBoot-Assignment2"/>
 			<item value="/Users/mitchellmorgan/Downloads/day15-26Jun2025-SpringBoot-Assignment1.1"/>
