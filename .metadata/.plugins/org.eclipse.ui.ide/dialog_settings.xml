@@ -6,6 +6,19 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/mitchellmorgan/Downloads/day28-16Jul2025-SpringBoot-MVC-SpringForm-Lombok"/>
+			<item value="/Users/mitchellmorgan/Downloads/day27-15Jul2025-SpringBoot-MVC-SpringForm-User-RoleInClass"/>
+			<item value="/Users/mitchellmorgan/Downloads/day25-11Jul2025-SpringBoot-MVC-SpringForm"/>
+			<item value="/Users/mitchellmorgan/Downloads/day24-10Jul2025-SpringBoot-MVC-SpringForm"/>
+			<item value="/Users/mitchellmorgan/Downloads/day23-09Jul2025-SpringBoot-MVC-SpringForm"/>
+			<item value="/Users/mitchellmorgan/Downloads/day22-08Jul2025-SpringBoot-MVC-Validation4"/>
+			<item value="/Users/mitchellmorgan/Downloads/day22-08Jul2025-SpringBoot-MVC-Validation5-ModelAndView"/>
+			<item value="/Users/mitchellmorgan/Downloads/day22-08Jul2025-SpringBoot-MVC-Validation5-ModelMap"/>
+			<item value="/Users/mitchellmorgan/Downloads/day21-07Jul2025-SpringBoot-MVC-Validation3"/>
+			<item value="/Users/mitchellmorgan/Downloads/day21-07Jul2025-SpringBoot-MVC-Validation2"/>
+			<item value="/Users/mitchellmorgan/Downloads/day21-07Jul2025-SpringBoot-MVC-Validation"/>
+			<item value="/Users/mitchellmorgan/Downloads/day21-07Jul2025-SpringBoot-MVC6"/>
+			<item value="/Users/mitchellmorgan/Downloads/day20-03Jul2025-SpringBoot-MVC5"/>
 			<item value="/Users/mitchellmorgan/Downloads/day19-02Jul2025-SpringBoot-MVC4"/>
 			<item value="/Users/mitchellmorgan/Downloads/day18-01Jul2025-SpringBoot-MVC3"/>
 			<item value="/Users/mitchellmorgan/Downloads/day18-01Jul2025-SpringBoot-MVC2"/>
@@ -56,5 +69,11 @@
 			<item key="DIALOG_HEIGHT" value="500"/>
 			<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 		</section>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="540"/>
+		<item key="DIALOG_HEIGHT" value="367"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 </section>
